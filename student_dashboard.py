@@ -1,14 +1,13 @@
+# ✅ 1. Import libraries first
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime
 
-# ✅ Set page config FIRST
+# ✅ 2. Then call set_page_config
 st.set_page_config(layout="wide", page_title="Student Dashboard")
 
-# Now you can use other Streamlit features
-st.title("Welcome to the Student Dashboard")
+# ✅ 3. Continue with the rest of your app
+st.title("Welcome to the Dashboard")
 
 # Load data
 @st.cache_data
