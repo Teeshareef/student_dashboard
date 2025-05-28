@@ -3,10 +3,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# ✅ 2. Then call set_page_config
+# First and only call – this is okay
 st.set_page_config(layout="wide", page_title="Student Dashboard")
 
-# ✅ 3. Continue with the rest of your app
 st.title("Welcome to the Dashboard")
 
 # Load data
@@ -29,8 +28,8 @@ def load_data():
 profiles, assignments, attendance, remarks, scores, summary = load_data()
 
 # Dashboard layout
-st.set_page_config(layout="wide", page_title="Student Dashboard")
-st.title("Student Performance Dashboard")
+# st.set_page_config(layout="wide", page_title="Student Dashboard")
+# st.title("Student Performance Dashboard")
 
 # Sidebar filters
 st.sidebar.header("Filters")
