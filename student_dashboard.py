@@ -1,7 +1,9 @@
-# ✅ 1. Import libraries first
+# Import libraries first
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+from datetime import datetime  
 
 # First and only call – this is okay
 st.set_page_config(layout="wide", page_title="Student Dashboard")
