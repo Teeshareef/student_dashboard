@@ -1,0 +1,151 @@
+"ID","Assignment","Subject","Deadline","Submitted","Marks"
+1,"Case Study","English",2025-06-08,TRUE,83
+1,"Essay","History",2025-06-01,TRUE,82
+1,"Homework","Science",2025-06-04,TRUE,38
+2,"Project","Science",2025-06-10,TRUE,38
+2,"Worksheet","Art",2025-05-31,TRUE,95
+2,"Research Paper","Science",2025-06-08,FALSE,NA
+3,"Lab Report","English",2025-05-29,TRUE,62
+3,"Research Paper","Art",2025-05-28,TRUE,36
+3,"Worksheet","English",2025-05-30,TRUE,41
+4,"Quiz","English",2025-06-07,TRUE,58
+4,"Research Paper","Science",2025-06-03,TRUE,47
+4,"Exam","English",2025-06-09,TRUE,30
+5,"Case Study","English",2025-06-07,TRUE,85
+5,"Exam","Math",2025-06-04,TRUE,58
+5,"Homework","Math",2025-06-01,TRUE,52
+6,"Quiz","Art",2025-05-29,TRUE,84
+6,"Case Study","English",2025-06-05,TRUE,91
+6,"Worksheet","Science",2025-06-06,TRUE,46
+7,"Project","History",2025-06-01,TRUE,13
+7,"Case Study","Art",2025-06-08,FALSE,NA
+7,"Case Study","Math",2025-06-02,TRUE,32
+8,"Case Study","Art",2025-06-06,TRUE,36
+8,"Project","English",2025-06-08,TRUE,11
+8,"Essay","Art",2025-06-02,FALSE,NA
+9,"Exam","Science",2025-06-03,TRUE,70
+9,"Presentation","Math",2025-06-07,TRUE,91
+9,"Homework","Art",2025-05-31,TRUE,96
+10,"Quiz","History",2025-06-02,TRUE,21
+10,"Research Paper","Science",2025-06-02,TRUE,22
+10,"Case Study","English",2025-06-07,TRUE,86
+11,"Exam","English",2025-06-05,FALSE,NA
+11,"Quiz","History",2025-05-30,TRUE,19
+11,"Essay","Science",2025-06-01,TRUE,9
+12,"Case Study","History",2025-06-09,FALSE,NA
+12,"Homework","Math",2025-06-06,TRUE,8
+12,"Presentation","English",2025-06-01,TRUE,26
+13,"Quiz","Math",2025-06-05,TRUE,74
+13,"Homework","English",2025-06-02,TRUE,16
+13,"Lab Report","Science",2025-06-08,FALSE,NA
+14,"Exam","Math",2025-05-28,TRUE,91
+14,"Presentation","History",2025-05-30,TRUE,62
+14,"Exam","English",2025-06-04,TRUE,94
+15,"Homework","Science",2025-05-29,TRUE,32
+15,"Exam","English",2025-06-10,TRUE,42
+15,"Exam","History",2025-05-30,FALSE,NA
+16,"Homework","Math",2025-06-06,TRUE,93
+16,"Lab Report","Art",2025-05-28,TRUE,22
+16,"Quiz","Science",2025-06-03,TRUE,100
+17,"Exam","Art",2025-05-30,TRUE,80
+17,"Project","Art",2025-06-01,TRUE,39
+17,"Case Study","Math",2025-06-04,TRUE,16
+18,"Essay","English",2025-06-09,TRUE,67
+18,"Worksheet","Art",2025-06-07,TRUE,86
+18,"Homework","History",2025-06-09,TRUE,50
+19,"Project","Science",2025-06-05,FALSE,NA
+19,"Worksheet","English",2025-05-28,TRUE,91
+19,"Quiz","English",2025-06-10,FALSE,NA
+20,"Project","English",2025-05-28,TRUE,11
+20,"Presentation","Art",2025-05-28,TRUE,95
+20,"Case Study","English",2025-06-09,TRUE,53
+21,"Essay","Art",2025-06-01,TRUE,2
+21,"Essay","Art",2025-06-04,TRUE,6
+21,"Case Study","Science",2025-06-01,TRUE,2
+22,"Project","History",2025-06-08,FALSE,NA
+22,"Case Study","Science",2025-05-31,FALSE,NA
+22,"Quiz","Art",2025-05-31,TRUE,18
+23,"Lab Report","History",2025-06-01,TRUE,60
+23,"Homework","History",2025-06-04,TRUE,3
+23,"Project","English",2025-06-05,TRUE,25
+24,"Lab Report","English",2025-05-29,TRUE,7
+24,"Essay","Science",2025-06-04,FALSE,NA
+24,"Quiz","Math",2025-05-30,TRUE,57
+25,"Homework","Art",2025-05-30,FALSE,NA
+25,"Case Study","English",2025-06-01,TRUE,88
+25,"Quiz","English",2025-06-04,FALSE,NA
+26,"Homework","Art",2025-06-08,TRUE,12
+26,"Project","Art",2025-06-01,TRUE,60
+26,"Project","Math",2025-06-03,TRUE,100
+27,"Exam","Math",2025-06-06,TRUE,30
+27,"Worksheet","Art",2025-06-08,FALSE,NA
+27,"Homework","History",2025-06-05,TRUE,4
+28,"Essay","Science",2025-06-04,TRUE,23
+28,"Project","Math",2025-06-06,TRUE,85
+28,"Exam","Science",2025-06-02,TRUE,96
+29,"Exam","Science",2025-06-02,TRUE,97
+29,"Essay","English",2025-05-31,TRUE,35
+29,"Research Paper","Art",2025-06-05,FALSE,NA
+30,"Research Paper","Art",2025-06-05,FALSE,NA
+30,"Exam","History",2025-06-01,FALSE,NA
+30,"Homework","Art",2025-05-28,TRUE,90
+31,"Exam","Science",2025-06-05,TRUE,60
+31,"Quiz","Math",2025-06-06,TRUE,18
+31,"Case Study","English",2025-06-04,TRUE,11
+32,"Worksheet","Math",2025-06-01,TRUE,32
+32,"Research Paper","Science",2025-06-09,FALSE,NA
+32,"Worksheet","Science",2025-06-07,TRUE,30
+33,"Exam","History",2025-06-10,FALSE,NA
+33,"Exam","History",2025-06-07,TRUE,73
+33,"Lab Report","Math",2025-06-08,TRUE,14
+34,"Exam","History",2025-06-05,TRUE,27
+34,"Exam","History",2025-06-10,TRUE,99
+34,"Presentation","Math",2025-06-09,TRUE,89
+35,"Essay","English",2025-06-10,TRUE,7
+35,"Project","Science",2025-06-03,FALSE,NA
+35,"Quiz","English",2025-06-06,FALSE,NA
+36,"Presentation","English",2025-06-09,FALSE,NA
+36,"Case Study","Art",2025-06-08,TRUE,71
+36,"Essay","Math",2025-06-05,FALSE,NA
+37,"Homework","Art",2025-06-09,TRUE,69
+37,"Worksheet","Art",2025-06-10,TRUE,67
+37,"Presentation","Science",2025-06-01,TRUE,42
+38,"Homework","Math",2025-06-06,TRUE,79
+38,"Exam","History",2025-06-09,TRUE,62
+38,"Worksheet","Art",2025-06-10,TRUE,39
+39,"Project","Science",2025-06-04,TRUE,94
+39,"Research Paper","Art",2025-06-03,TRUE,100
+39,"Quiz","Art",2025-05-30,TRUE,89
+40,"Quiz","Math",2025-06-07,FALSE,NA
+40,"Case Study","Science",2025-06-09,TRUE,19
+40,"Homework","Art",2025-06-05,TRUE,6
+41,"Project","English",2025-06-10,TRUE,72
+41,"Presentation","History",2025-06-09,TRUE,83
+41,"Research Paper","Art",2025-06-10,TRUE,52
+42,"Quiz","English",2025-06-05,TRUE,10
+42,"Essay","Math",2025-06-01,TRUE,48
+42,"Exam","English",2025-06-09,TRUE,1
+43,"Case Study","Science",2025-06-10,TRUE,28
+43,"Exam","History",2025-05-29,FALSE,NA
+43,"Essay","History",2025-05-31,TRUE,36
+44,"Case Study","Art",2025-05-31,TRUE,84
+44,"Case Study","Math",2025-06-07,FALSE,NA
+44,"Case Study","History",2025-06-04,TRUE,51
+45,"Worksheet","History",2025-06-04,TRUE,5
+45,"Worksheet","Math",2025-05-28,FALSE,NA
+45,"Case Study","History",2025-06-01,TRUE,54
+46,"Case Study","English",2025-05-29,TRUE,95
+46,"Case Study","English",2025-06-05,TRUE,34
+46,"Project","Art",2025-06-08,FALSE,NA
+47,"Project","Art",2025-05-28,FALSE,NA
+47,"Project","Math",2025-06-09,TRUE,40
+47,"Quiz","History",2025-06-06,TRUE,59
+48,"Project","Math",2025-06-09,TRUE,31
+48,"Exam","English",2025-05-28,TRUE,59
+48,"Exam","History",2025-06-09,TRUE,83
+49,"Homework","Science",2025-06-01,TRUE,85
+49,"Presentation","Math",2025-06-03,FALSE,NA
+49,"Worksheet","Science",2025-06-02,TRUE,50
+50,"Research Paper","Art",2025-06-10,TRUE,93
+50,"Project","English",2025-05-28,FALSE,NA
+50,"Essay","Math",2025-06-08,FALSE,NA
