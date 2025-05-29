@@ -51,9 +51,9 @@ if selected_gender != "All":
 st.header("Overview Metrics")
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Students", len(summary))
-col2.metric("Average Score", f"{summary['Avg_Score'].mean():.1f}")
-col3.metric("Average Attendance", f"{summary['Attendance_Rate'].mean()*100:.1f}%")
-col4.metric("Average Submission Rate", f"{summary['Submission_Rate'].mean()*100:.1f}%")
+col2.metric("Average Score", f"{summary['Average Score'].mean():.1f}")
+col3.metric("Average Attendance", f"{summary['Attendance Rate'].mean()*100:.1f}%")
+col4.metric("Average Submission Rate", f"{summary['Submission Rate'].mean()*100:.1f}%")
 
 # Tabs for different views
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Summary", "Performance", "Attendance", "Assignments", "Remarks"])
@@ -65,23 +65,23 @@ with tab1:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Top 5 Performers")
-        top_performers = summary.sort_values('Avg_Score', ascending=False).head(5)
-        st.dataframe(top_performers[['Name', 'Class', 'Section', 'Avg_Score']])
+        top_performers = summary.sort_values('Average Score', ascending=False).head(5)
+        st.dataframe(top_performers[['Name', 'Class', 'Section', 'Average Score']])
     
     with col2:
         st.subheader("Bottom 5 Performers")
-        bottom_performers = summary.sort_values('Avg_Score').head(5)
-        st.dataframe(bottom_performers[['Name', 'Class', 'Section', 'Avg_Score']])
+        bottom_performers = summary.sort_values('Average Score').head(5)
+        st.dataframe(bottom_performers[['Name', 'Class', 'Section', 'Average Score']])
     
     # Performance distribution
     st.subheader("Performance Distribution")
-    fig = px.histogram(summary, x='Avg_Score', nbins=20, 
+    fig = px.histogram(summary, x='Average Score', nbins=20, 
                        title="Distribution of Average Scores")
     st.plotly_chart(fig, use_container_width=True)
     
     # Correlation between metrics
     st.subheader("Metric Correlations")
-    fig = px.scatter_matrix(summary, dimensions=['Avg_Score', 'Attendance_Rate', 'Submission_Rate'],
+    fig = px.scatter_matrix(summary, dimensions=['Average Score', 'Attendance Rate', 'Submission Rate'],
                            color='Class', hover_name='Name')
     st.plotly_chart(fig, use_container_width=True)
 
@@ -117,7 +117,7 @@ with tab3:
     
     # Overall attendance rate
     st.subheader("Attendance Rate Distribution")
-    fig = px.histogram(summary, x='Attendance_Rate', nbins=10,
+    fig = px.histogram(summary, x='Attendance Rate', nbins=10,
                        title="Distribution of Attendance Rates")
     st.plotly_chart(fig, use_container_width=True)
     
@@ -163,7 +163,8 @@ with tab4:
     # Upcoming deadlines
     st.subheader("Upcoming Deadlines")
     upcoming = assignments[assignments['Deadline'] >= datetime.now()]
-    st.dataframe(upcoming.sort_values('Deadline').head(10))
+    upcoming_display = upcoming[['Assignment', 'Subject', 'Deadline', 'Submitted', 'Marks']].sort_values('Deadline')
+    st.dataframe(upcoming_display.head(10))
     
     # Student assignment performance
     selected_student_assign = st.selectbox("Select Student to View Assignments", 
